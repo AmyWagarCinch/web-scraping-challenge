@@ -13,13 +13,13 @@
   <div class="container-fluid">
     <div class="jumbotron text-center">
       <h1>Mission to Mars</h1>
-      <p>Mars. Mars. Mars. Mars. Mars.</p>
+    
       <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
     </div>
     <img src="{{ mars.img_url }}" alt="Sloth">
-    <h2>The typical weather in Mars is:</h2>
-    <h3>Max Temp: {{ mars.news_title }}</h3>
-    <h3>Min Temp: {{ mars.news_paragraph }}</h3>
+    <h2>Latest Mars News:</h2>
+    <h3>{{ mars.news_title }}</h3>
+    <h3>{{ mars.news_paragraph }}</h3>
   </div>
   </div>
 </body>
